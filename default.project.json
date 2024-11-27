@@ -1,0 +1,41 @@
+{
+  "name": "Goat Tempest",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/ReplicatedStorage"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/ServerScriptService"
+      }
+    },
+
+    "ServerStorage":{
+      "Source":{
+        "$path": "src/ServerStorage"
+      }
+    },
+
+    "StarterPlayer":{
+      "StarterPlayerScripts":{
+          "$className": "StarterPlayerScripts",
+          "Client":{
+              "$path": "src/StarterPlayerScripts"
+          }
+      },
+      "StarterCharacterScripts":{
+          "Client":{
+              "$path": "src/StarterCharacterScripts"
+          }
+      }
+    }    
+  }
+}

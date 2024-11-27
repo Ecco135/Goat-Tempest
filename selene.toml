@@ -1,0 +1,4 @@
+std = "roblox"
+
+[rules]
+allow_single_line_instance_creation = true
